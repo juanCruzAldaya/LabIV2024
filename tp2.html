@@ -5,12 +5,23 @@
     <script src="validations.js"></script>
 </head>
 <body>
-    <form action="toServer" onsubmit="return validateForm() " method="post">
+    <h2>TP 2</h2>
+    <form name = "myForm" onsubmit="validateForm() " method="post">
         <label for="name">Nombre: <br> </label>
         <input type="text" id="name">
+        <span id="nameError" class="error"></span><br>
 
         <label for="lastName"><br>Apellido: <br> </label>
         <input type="text" id="lastName">
+        <span id="lastNameError" class="error"></span><br>
+
+
+
+        
+        <input type="submit" value="Submit" id="submit">
+        <input type="date" placeholder="Ingrese una fecha">
+
+        
         
     
     </form>

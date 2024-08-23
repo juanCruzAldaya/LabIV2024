@@ -53,3 +53,7 @@ section{
     padding: 1em;
     width: 90%;
 }
+
+details{
+    font-size: small;
+}
