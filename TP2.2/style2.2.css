@@ -1,0 +1,52 @@
+
+body
+{
+    background-color:rgba(211, 181, 155, 0.452);
+
+}
+
+.containerHeader{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20;
+    transform: translateY(5px);
+}
+.containerList 
+{
+    margin: auto;
+}
+
+.listItem
+{
+
+    border: none;
+}
+
+.containerTitle
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: larger;
+    color: rgb(9, 77, 85);
+    
+}
+.subtitle
+{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+    margin: auto;
+    transform: translateY(-50px);
+    font-weight: lighter;
+}
+
+
+h3
+{
+    /* margin: auto; */
+    transform: translateY(-25px);
+    font-family: Geneva;
+    font-style: italic;
+    font-size: 230%;
+}

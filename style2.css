@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 form{
     display: flex;
     flex-direction: column;
@@ -13,4 +14,8 @@ input{
     display: flex;
     padding: 15;
     
+=======
+.error{
+    color: red;
+>>>>>>> 8a2eb0d25ee05c67851748211996a5352d2d0be0
 }

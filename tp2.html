@@ -5,14 +5,33 @@
     <script src="validations.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <form action="toServer" onsubmit="return validateForm() " method="post">
         <label for="name">Nombre:</label>
+=======
+    <h2>TP 2</h2>
+    <form name = "myForm" onsubmit="validateForm() " method="post">
+        <label for="name">Nombre: <br> </label>
+>>>>>>> 8a2eb0d25ee05c67851748211996a5352d2d0be0
         <input type="text" id="name">
+        <span id="nameError" class="error"></span><br>
 
         <label for="lastName">Apellido: </label>
         <input type="text" id="lastName">
+<<<<<<< HEAD
 
         <label for="age">Edad: </label>
+=======
+        <span id="lastNameError" class="error"></span><br>
+
+
+
+        
+        <input type="submit" value="Submit" id="submit">
+        <input type="date" placeholder="Ingrese una fecha">
+
+        
+>>>>>>> 8a2eb0d25ee05c67851748211996a5352d2d0be0
         
     
     </form>
